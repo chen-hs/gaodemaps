@@ -18,6 +18,7 @@ public class LocationUtil implements AMapLocationListener {
     private AMapLocationClient aMapLocationClient;
     private AMapLocationClientOption clientOption;
     private ILocationCallBack callBack;
+    private Button mBtnBack;
 
     public void startLocate(Context context){
         aMapLocationClient = new AMapLocationClient(context);
